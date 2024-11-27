@@ -1,0 +1,52 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Webshop",
+    "collectionId": "01f9381d-1d4f-4e9c-8146-d525d077a800",
+    "dateExported": "2024-11-27T10:28:34.636Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "de711f2c-ef27-4ba4-ba8e-27e53f3657fa",
+            "colId": "01f9381d-1d4f-4e9c-8146-d525d077a800",
+            "containerId": "",
+            "name": "get all product",
+            "url": "http://webshop.test/api/products",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-11-27T09:30:19.292Z",
+            "modified": "2024-11-27T10:22:28.776Z",
+            "headers": []
+        },
+        {
+            "_id": "3e346597-a4e0-4d0a-962e-e5449871f376",
+            "colId": "01f9381d-1d4f-4e9c-8146-d525d077a800",
+            "containerId": "",
+            "name": "get product",
+            "url": "http://webshop.test/api/products/100",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-11-27T10:22:35.466Z",
+            "modified": "2024-11-27T10:24:23.520Z",
+            "headers": []
+        },
+        {
+            "_id": "5841bfd2-8b96-41fa-b2ef-20a256962bae",
+            "colId": "01f9381d-1d4f-4e9c-8146-d525d077a800",
+            "containerId": "",
+            "name": "update product",
+            "url": "http://webshop.test/api/products/30",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-11-27T10:24:55.210Z",
+            "modified": "2024-11-27T10:27:38.917Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Mandarin\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "yTs_7oZBYEfTfXvSE4B4K-shZ_2QuBVh3NRRPW5d-dlrNb74P5XhRUXOE8_4l7ZVEGQ4WM-NpxUz1TDZR1R4Ow"
+}
